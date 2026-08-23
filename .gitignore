@@ -1,0 +1,7 @@
+build/
+.codegraph/
+*.o
+*.swp
+*.swo
+*~
+.DS_Store
