@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="application/x-lunardraw">
+    <comment>LunarDraw project</comment>
+    <comment xml:lang="pl">Projekt LunarDraw</comment>
+    <glob pattern="*.lunar"/>
+    <magic priority="50">
+      <match type="string" value="LUNAR_PROJECT" offset="0"/>
+    </magic>
+  </mime-type>
+</mime-info>
