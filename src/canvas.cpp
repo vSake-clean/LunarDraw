@@ -202,7 +202,8 @@ void Canvas::renderSelection(cairo_t* cr) {
     if (!selectedShape) return;
     cairo_set_source_rgb(cr, 0, 0.4, 1);
     cairo_set_line_width(cr, 1.5);
-    cairo_set_dash(cr, (double[]){4, 4}, 2, 0);
+    static const double dash[] = {4, 4};
+    cairo_set_dash(cr, dash, 2, 0);
 
     switch (selectedShape->type) {
         case ShapeType::Rectangle: {
