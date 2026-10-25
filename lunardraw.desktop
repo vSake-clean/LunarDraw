@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=LunarDraw
+GenericName=Drawing Program
+Comment=Lightweight 2D drawing app with layers
+Comment[pl]=Lekki program do rysowania z warstwami
+Exec=lunardraw %f
+Icon=applications-graphics
+Terminal=false
+Categories=Graphics;2DGraphics;GTK;
+StartupNotify=true
+MimeType=application/x-lunardraw;
