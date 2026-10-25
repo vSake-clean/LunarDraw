@@ -4,6 +4,8 @@ A lightweight 2D drawing application for Linux, written in C++17 with GTK3 and C
 
 LunarDraw lets you sketch freehand, draw shapes, place images, and organize your work across layers — with everything saved in a custom `.lunar` project format.
 
+![LunarDraw screenshot](docs/screenshot.png)
+
 ## Features
 
 - **Drawing tools** — freehand pen, marker, spray, and eraser brushes
